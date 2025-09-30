@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/32969258-78f5-4479-b048-bb38e7e1448f
 
 ### 0. Start the service
 
-1. Download the latest release for you OS (Mac, Linux, Windows)
+1. Download the latest (release)[https://github.com/up-to-speed/command-center/releases] for you OS (Mac, Linux, Windows)
 2. Then start it via the terminal by doing 
 
 ```bash

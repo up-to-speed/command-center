@@ -4,6 +4,8 @@
 npm install -g @commmand-center/command-center
 ```
 
+_Manual install of binary. Go to [Releases](https://github.com/up-to-speed/command-center/releases) and pick you OS and Architecture._
+
 <img width="230" height="50" alt="Command Center" src="https://github.com/user-attachments/assets/0f24a8aa-16c3-44e7-abd6-0744f91d9346" />
 
 ## Don't let AI slop ruin your codebase

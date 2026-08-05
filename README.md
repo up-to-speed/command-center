@@ -14,6 +14,34 @@ Website: **[cc.dev](https://www.cc.dev/)**
 
 Download for macOS, Linux, or Windows from **[cc.dev](https://www.cc.dev/)**.
 
+### NixOS
+
+The AppImage cannot run directly on NixOS — its bundled binaries hardcode
+`/lib64/ld-linux-*` and other FHS library paths that NixOS does not provide. This
+repo publishes a flake that wraps it in an FHS sandbox:
+
+```bash
+nix profile install github:command-center-ai/command-center
+```
+
+Or try it without installing:
+
+```bash
+nix run github:command-center-ai/command-center
+```
+
+To pin it in a system or home-manager configuration, add this repo as a flake
+input and use `overlays.default`, which provides `pkgs.command-center`. Command
+Center is proprietary, so the package is marked unfree — set
+`nixpkgs.config.allowUnfree = true` (the flake's own outputs already do).
+
+Updates come from your package manager rather than the app's built-in updater,
+which cannot work against a read-only Nix store:
+
+```bash
+nix profile upgrade --refresh command-center
+```
+
 ### CLI
 
 ```bash

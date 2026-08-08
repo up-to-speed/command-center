@@ -5,11 +5,11 @@
   "assets": {
     "x86_64-linux": {
       "url": "https://github.com/command-center-ai/command-center/releases/download/electron-v1.1.1/Command-Center-1.1.1-x86_64.AppImage",
-      "hash": "sha512-pbYgZ4yrPLisSveyRcnv39AdzAlhD7J3k8tx7deMiCW97iVtY27l9x08q0F2xFKot5KrNn0PV8wR6CKBQAzCPg=="
+      "hash": "sha512-D7GFjAZBIGJvll7svLK2ieauAgtOzeQm0uUuT4bJtx0m7MaDG7E2knTBrU+eglcIxDvUkDt8efyAOHBer2T4DQ=="
     },
     "aarch64-linux": {
       "url": "https://github.com/command-center-ai/command-center/releases/download/electron-v1.1.1/Command-Center-1.1.1-arm64.AppImage",
-      "hash": "sha512-h6m1C/+svKBxpTZryZy2vazljk4TUXceMO0ALoVneaOTd9vg583/6w+L1EJ9S3RszX5XDZREMRXgGJp5kI/sEg=="
+      "hash": "sha512-ix4/jmbVgY6CzYwT/i0zXjklJ8IemrcR8HxUw8vYmlbG6nxQ5mKaixldCfkyCc0u79pvgibeVy2aeqyjzeKjwg=="
     }
   }
 }
